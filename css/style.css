@@ -155,8 +155,7 @@ table tr:nth-child(even) td {background: #D7D7FF;}
 .square .tred, .square-3 .tred {background-color: #800000;}
 .square td {width:50%; border: 1px solid #808080; padding:17px 10px}
 .square a , .square-3 a {  color:#FFF !important; text-decoration:none !important;}
-
-	
+.whitetable{background-color:#FFF !important;}	
 	
 
 
