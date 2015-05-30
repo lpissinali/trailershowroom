@@ -115,6 +115,7 @@ hr.hr3 {border:none; border-bottom: solid 2px #000080;}
 .well-blue,.well-wrap.well-blue {border-color: #000080;}
 .well-blue a {color: #000080; text-decoration: underline;}
 .well-wrap {border: solid 3px #c00; padding: 1px; margin-bottom: 50px;}
+div.well-blue{border:none !important; padding:3px !important;} 
 
 blockquote {padding: 0 30px;}
 
