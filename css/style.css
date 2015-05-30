@@ -98,9 +98,9 @@ hr.hr3 {border:none; border-bottom: solid 2px #000080;}
 
 /* menu */
 .menu {background: #000080; padding: 6px;}
-.menu li {background: #c00; list-style: none;}
+.menu li {background: #c00; list-style: none; float:left; width:119px; margin-right:5px;}
 .menu li a {color: #fff; font-size: 16px;font-weight: bold;text-decoration: none;display: block; float: left; background: #c00;padding: 10px 0;
-  text-align: center;width: 100%; border-bottom: solid 3px #000080;}
+  text-align: center;width: 100%; border-bottom: solid 3px #000080; width:119px !important;}
 .menu li:last-child a {border: none;}
 
 /* wells */
@@ -168,12 +168,22 @@ footer p, footer a {color: #fff; font-size: 10px;}
 
 /* under 480px */
 @media (max-width: 480px) {
+
   table th, table td {padding: 12px 2px;}
   .price-tables ul {margin-left: 20px;}
   table a span {display: none;}
   
 /*  table tr td:last-child a {text-indent: -5000px;}
   table tr td:last-child a:after {content: 'Add';}*/
+}
+
+@media (max-width: 900px) {
+
+
+.menu li {background: #c00; list-style: none; width:100%}
+.menu li a {color: #fff; font-size: 16px;font-weight: bold;text-decoration: none;display: block; float: left; background: #c00;padding: 10px 0;
+  text-align: center;width: 100%; border-bottom: solid 3px #000080; width:100% !important}
+
 }
 
 /* over 900px */
@@ -209,5 +219,6 @@ footer p, footer a {color: #fff; font-size: 10px;}
   .hidden-xs {display: block;}
   
   .menu li a {width: 14.28%; border: none;}
-  .row-flex, .row-flex > div[class*='col-'] { display: -ms-flexbox;display: flex;display: -webkit-box; display: moz-box-flex; display: -webkit-flex; flex-wrap: wrap;  flex:1 1 auto;}
+/*  .row-flex, .row-flex > div[class*='col-'] { display: -ms-flexbox;display: flex;display: -webkit-box; display: moz-box-flex; display: -webkit-flex; flex-wrap: wrap;  flex:1 1 auto;}
 }
+*/
