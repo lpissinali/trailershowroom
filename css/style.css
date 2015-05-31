@@ -98,10 +98,11 @@ hr.hr3 {border:none; border-bottom: solid 2px #000080;}
 
 /* menu */
 .menu {background: #000080; padding: 6px;}
-.menu li {background: #c00; list-style: none; float:left; width:119px; margin-right:5px;}
+.menu li {background: #c00; list-style: none; float:left; margin-right:5px;}
+.menu li:last-child {margin-right: 0;}
 .menu li a {color: #fff; font-size: 16px;font-weight: bold;text-decoration: none;display: block; float: left; background: #c00;padding: 10px 0;
-  text-align: center;width: 100%; border-bottom: solid 3px #000080; width:119px !important;}
-.menu li:last-child a {border: none;}
+  text-align: center;width: 100%; width:120px;}
+.menu li:last-child a {border: none;width: 126px;}
 /*sidebar*/
 .well-lc > div > p{margin:0px;}
 /* wells */
@@ -115,7 +116,8 @@ hr.hr3 {border:none; border-bottom: solid 2px #000080;}
 .well-blue,.well-wrap.well-blue {border-color: #000080;}
 .well-blue a {color: #000080; text-decoration: underline;}
 .well-wrap {border: solid 3px #c00; padding: 1px; margin-bottom: 50px;}
-div.well-blue{border:none !important; padding:3px !important;} 
+div.well-blue{border:none; padding:4px;font-size: 10px;} 
+div.well-blue p {margin-bottom: 0;}
 
 blockquote {padding: 0 30px;}
 
@@ -174,6 +176,8 @@ footer p, footer a {color: #fff; font-size: 10px;}
   .price-tables ul {margin-left: 20px;}
   table a span {display: none;}
   
+  .addthis_toolbox {width: auto;}
+  
 /*  table tr td:last-child a {text-indent: -5000px;}
   table tr td:last-child a:after {content: 'Add';}*/
 }
@@ -219,7 +223,6 @@ footer p, footer a {color: #fff; font-size: 10px;}
   .col-sm-offset-0 {margin-left: 0;}
   .hidden-xs {display: block;}
   
-  .menu li a {width: 14.28%; border: none;}
 /*  .row-flex, .row-flex > div[class*='col-'] { display: -ms-flexbox;display: flex;display: -webkit-box; display: moz-box-flex; display: -webkit-flex; flex-wrap: wrap;  flex:1 1 auto;}
 }
 */
