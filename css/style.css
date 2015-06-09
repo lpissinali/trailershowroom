@@ -42,7 +42,7 @@ img {max-width: 100%;}
 .fs14 {font-size: 14px;}
 .fs16 {font-size: 16px;}
 .fs18 {font-size: 18px;}
-.hugetitleblue{ background-color:#000080; width:100%; color:#FFF; padding: 20px 0px; font-size:34px;};
+.hugetitleblue{ background-color:#000080; color:#FFF; padding: 20px; font-size:30px;}
 .soc-icon {margin-left: 8px;}
 .soc-icon img {width: 20px;}
 .cart-icon {text-align: center; margin: 50px 0;}
@@ -227,6 +227,5 @@ footer p, footer a {color: #fff; font-size: 10px;}
   .col-sm-offset-0 {margin-left: 0;}
   .hidden-xs {display: block;}
   
-/*  .row-flex, .row-flex > div[class*='col-'] { display: -ms-flexbox;display: flex;display: -webkit-box; display: moz-box-flex; display: -webkit-flex; flex-wrap: wrap;  flex:1 1 auto;}
+  /*.row-flex, .row-flex > div[class*='col-'] { display: -ms-flexbox;display: flex;display: -webkit-box; display: moz-box-flex; display: -webkit-flex; flex-wrap: wrap;  flex:1 1 auto;}*/
 }
-*/
