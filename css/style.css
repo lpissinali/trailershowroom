@@ -154,10 +154,13 @@ table.left1st td:first-child {text-align: left;}
 .square {max-width:355px; margin-bottom:25px; margin-left:auto; margin-right:auto}
 .square-3 {max-width:455px; margin-bottom:20px; margin-left:auto; margin-right:auto}
 .square-3 td {width:33%; border: 1px solid #808080; padding:17px 10px}
-.square .tblue, .square-3 .tblue{background-color: #000080;}
-.square .tred, .square-3 .tred {background-color: #800000;}
+.square-4 {margin-bottom:20px; margin-left:auto; margin-right:auto}
+.square-4 td {width:24%; border: 1px solid #808080; padding:17px 10px}
+.square .tblue, .square-3 .tblue,.square-4 .tblue{background-color: #000080;}
+
+.square .tred, .square-3 .tred, .square-4 .tred {background-color: #800000;}
 .square td {width:50%; border: 1px solid #808080; padding:17px 10px}
-.square a , .square-3 a {  color:#FFF !important; text-decoration:none !important;}
+.square a , .square-3 a ,.square-4 a {  color:#FFF !important; text-decoration:none !important;}
 .whitetable{background-color:#FFF !important;}	
 	
 
