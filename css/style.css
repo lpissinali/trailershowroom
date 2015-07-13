@@ -95,6 +95,8 @@ hr.hr3 {border:none; border-bottom: solid 2px #000080;}
 
 .container {margin: 10px auto;}
 
+.gap {height: 215px;}
+
 
 /* menu */
 .menu {background: #000080; padding: 6px;}
@@ -116,8 +118,11 @@ hr.hr3 {border:none; border-bottom: solid 2px #000080;}
 .well-blue,.well-wrap.well-blue {border-color: #000080;}
 .well-blue a {color: #000080; text-decoration: underline;}
 .well-wrap {border: solid 3px #c00; padding: 1px; margin-bottom: 50px;}
-div.well-blue{border:none; padding:4px;font-size: 10px;} 
+div.well-blue{border:none; padding:6px 0;font-size: 11px;} 
 div.well-blue p {margin-bottom: 0;}
+
+.well-black {border: solid 1px #000; padding: 20px; margin-bottom: 20px;}
+.well-black h3 {margin-bottom: 0;}
 
 blockquote {padding: 0 30px;}
 
@@ -151,16 +156,17 @@ table th {color: #fff; background: #c00;}
 table tr:nth-child(even) td {background: #D7D7FF;}
 table.left1st td:first-child {text-align: left;}
 .style1 {font-size: 10px;}
-.square {max-width:355px; margin-bottom:25px; margin-left:auto; margin-right:auto}
-.square-3 {max-width:455px; margin-bottom:20px; margin-left:auto; margin-right:auto}
-.square-3 td {width:33%; border: 1px solid #808080; padding:17px 10px}
-.square-4 {margin-bottom:20px; margin-left:auto; margin-right:auto}
-.square-4 td {width:24%; border: 1px solid #808080; padding:17px 10px}
+.square {max-width:355px; margin-left:auto; margin-right:auto}
+.square-3 {max-width:455px; margin-left:auto; margin-right:auto}
+.square-3 td {width:33%; border: 1px solid #808080; padding:0}
+.square-4 { margin-left:auto; margin-right:auto}
+.square-4 td {width:24%; border: 1px solid #808080; padding:0}
 .square .tblue, .square-3 .tblue,.square-4 .tblue{background-color: #000080;}
 
 .square .tred, .square-3 .tred, .square-4 .tred {background-color: #800000;}
-.square td {width:50%; border: 1px solid #808080; padding:17px 10px}
-.square a , .square-3 a ,.square-4 a {  color:#FFF !important; text-decoration:none !important;}
+.square td {width:50%; border: 1px solid #808080; padding:0;}
+.square a , .square-3 a ,.square-4 a { color:#FFF !important; text-decoration:none !important;padding: 10px 5px; display: block; border: solid 1px #000;
+  margin: 3px;}
 .whitetable{background-color:#FFF !important;}	
 	
 
@@ -184,6 +190,8 @@ footer p, footer a {color: #fff; font-size: 10px;}
   
 /*  table tr td:last-child a {text-indent: -5000px;}
   table tr td:last-child a:after {content: 'Add';}*/
+
+  .well-black {padding: 5px;}
 }
 
 @media (max-width: 900px) {
@@ -193,6 +201,7 @@ footer p, footer a {color: #fff; font-size: 10px;}
 .menu li a {color: #fff; font-size: 16px;font-weight: bold;text-decoration: none;display: block; float: left; background: #c00;padding: 10px 0;
   text-align: center;width: 100%; border-bottom: solid 3px #000080; width:100% !important}
 
+.gap {height: 50px;}
 }
 
 /* over 900px */
