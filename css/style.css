@@ -173,6 +173,7 @@ table.left1st td:first-child {text-align: left;}
 
 /* forms */
 input {padding: 3px 5px;}
+.list {margin-left: 30px;}
 
 /* footer */
 footer {text-align: center; padding: 20px;}
@@ -181,6 +182,7 @@ footer p, footer a {color: #fff; font-size: 10px;}
 
 /* under 480px */
 @media (max-width: 480px) {
+  .col-xxs-12 {width: 100%;}
 
   table th, table td {padding: 12px 2px;}
   .price-tables ul {margin-left: 20px;}

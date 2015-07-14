@@ -19,40 +19,7 @@
     <meta name="msvalidate.01" content="DC4BB96F860DB9DEBAA6F017E352BA75" />
 
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
-    <SCRIPT language=JavaScript type=text/javascript>
-// Browser Slide-Show script.
-// With image cross fade effect for those browsers that support it.
-// Script copyright (c) 2004-2006 www.cryer.co.uk.
-// Script is free to use provided this copyright header is included.
-      var slideCache = new Array();
-      function RunSlideShow(pictureName, imageFiles, displaySecs)
-      {
-        var imageSeparator = imageFiles.indexOf(";");
-        var nextImage = imageFiles.substring(0, imageSeparator);
-        if (document.all)
-        {
-          document.getElementById(pictureName).style.filter = "blendTrans(duration=3)";
-          document.getElementById(pictureName).filters.blendTrans.Apply();
-        }
-        document.getElementById(pictureName).src = nextImage;
-        if (document.all)
-        {
-          document.getElementById(pictureName).filters.blendTrans.Play();
-        }
-        var futureImages = imageFiles.substring(imageSeparator + 1, imageFiles.length)
-                + ';' + nextImage;
-        setTimeout("RunSlideShow('" + pictureName + "','" + futureImages + "'," + displaySecs + ")",
-                displaySecs * 600);
-        // Cache the next image to improve performance.
-        imageSeparator = futureImages.indexOf(";");
-        nextImage = futureImages.substring(0, imageSeparator);
-        if (slideCache[nextImage] == null) {
-          slideCache[nextImage] = new Image;
-          slideCache[nextImage].src = nextImage;
-        }
-      }
-    </SCRIPT>
-
+    <script type="text/javascript" src="js/global.js"></script>
   </head>
   <body>
     <div class="container">
@@ -98,134 +65,49 @@
                 <tbody>
                   <tr>
                     <th colspan="5">
-                <p class="fs18 white">7 X 14 Special Tandem Axle Enclosed Trailer Package</p>
+                <div class="fs18 white">8.5 X 36 Aluminum Renegade Series Gooseneck Trailer</div>
                 </th>
                 </tr>
                 <tr>
                   <td class="whitetable" colspan="5">
-                    <p><img src="images/special/Covey1.jpg" alt="" /></p>
+                    <p><img src="images/special/Gooseneck.jpg" width="580" height="315"></p>
                   </td>
                 </tr><tr>
                   <td colspan="5">
-                    <h2 class="black">7 X 14 Tandem Axle Enclosed Trailer</h2>
-                    <h3 class="black">All Standard Equipment As Listed On Website, plus these special options:</h3>
-
-
+                    <h2 class="black">8.5 X 36 Aluminum Renegade Series Gooseneck Trailer</h2>
+                    <h3 class="black">Partial Equipment List</h3>
                     <div class="row">
-                      <div style="margin:0px auto; max-width:400px">
-                        <div class=" col-xs-6 text-left">
+                      <div style="margin:0 auto; max-width:500px">
+                        <div class="col-xxs-12 col-xs-6 text-left">
 
-                          <ul>
-                            <li><span class="red">
-                                16" On Center Floor
-                              </span></li>
-                            <li><span class="red">
-                                12&rdquo; Additional Height
-                              </span></li>
-                            <li><span class="red">
-                                Chrome Rims / Radials
-                              </span></li>
-                            <li><span class="red">
-                                Spare Radial Tire
-                              </span></li>
-                            <li><span class="red">
-                                Interior Spare Tire Mount
-                              </span></li>
-                            <li><span class="red">
-                                30 X 15 Horizontal Window
-                              </span></li>
-                            <li><span class="red">
-                                Wire and Brace For A/C
-                              </span></li>
-                            <li><span class="red">
-                                Air Conditioner with Heat
-                              </span></li>
-                            <li><span class="red">
-                                110V Electrical Package
-                              </span></li>
-                            <li><span class="red">
-                                White Vinyl On Walls
-                              </span></li>
-                            <li><span class="red">
-                                White Vinyl On Ceiling
-                              </span></li>
+                          <ul class="list">
+                            <li><span class="red">12" Added Interior Height</span></li>
+                            <li><span class="red">Triple 6K GVW Axles</span></li>
+                            <li><span class="red">2 Speed Landing Gear</span></li>
+                            <li><span class="red">D-Ring Tie Downs</span></li>
+                            <li><span class="red">Fold Down Step</span></li>
+                            <li><span class="red">Bogey Wheels</span></li>
+                            <li><span class="red">Tapered Nose</span></li>
                           </ul></div>
-                        <div class="col-xs-6 text-left">
+                        <div class="col-xxs-12 col-xs-6 text-left">
 
-                          <ul>
-                            <li><span class="red">
-                                Spray On Floor Liner
-                              </span></li>
-                            <li><span class="red">
-                                36" RV Door With Window
-                              </span></li>
-                            <li><span class="red">
-                                Upgrade To 6" I Beam Frame
-                              </span></li>
-                            <li><span class="red">
-                                40 Gal Fresh Water Tank
-                              </span></li>
-                            <li><span class="red">
-                                Pump For Water Tank
-                              </span></li>
-                            <li><span class="red">
-                                40 Gal Waste Tank / Dump Valve
-                              </span></li>
-                            <li><span class="red">
-                                48" x 36" Vented Generator Door
-                              </span></li>
-                            <li><span class="red">
-                                Insulated Generator Compartment
-                              </span></li>
-                            <li><span class="red">
-                                Light Metallic Pewter In Color
-                              </span></li>
-                            <li><span class="red">
-                                Rear Ramp Door
-                              </span></li>
-                            <li><span class="red">
-                                Drop Axles
-                              </span></li>
+                          <ul class="list">
+                            <li><span class="red">Dexter Torsion Axles</span></li>
+                            <li><span class="red">LED Exterior Lighting</span></li>
+                            <li><span class="red">Dome Light X 2</span></li>
+                            <li><span class="red">Stabilizer Jacks</span></li>
+                            <li><span class="red">Fuse Panel</span></li>
+                            <li><span class="red">Stainless Hinges</span></li>
+                            <li><span class="red">Radial Tires</span></li>
                           </ul></div>
                       </div>
                     </div>
                     <div class="mt20"></div>
-                    <p class="fs16"><strong>Original Price: $9,115.00</strong></p><br>
-
-                    <p class="fs16 red"><strong>
-                        Sale Price: $7,915.00</strong></p><br>
-
-                    <p class="blue"><strong>You Save $1,200.00</strong></p>
-                    <br>
-
-                    <p class="fs16"><strong>Deposit Required: $535.00</strong></p>
-                    <p class="fs16"><strong>Balance Due At Pick Up: $7,380.00</strong></p>
-                  </td>
-                </tr>
-                <tr>
-                  <th><strong>&nbsp;Size</strong></th>
-                  <th><strong> Model Number</strong></th>
-                  <th><strong>&nbsp;Price</strong></th>
-                  <th><strong>Required Deposit</strong></th>
-                  <th><strong>Buy</strong></th>
-                </tr>
-                <tr>
-                  <td class="whitetable">
-                    <p><strong>7X14 Special</strong></p>
-                  </td>
-                  <td class="whitetable">
-                    <p><strong> TW714TA2 - Special</strong></p>
-                  </td>
-                  <td class="whitetable"><strong>$7,915</strong></td>
-                  <td class="whitetable">
-                    <p><strong>$535</strong></p>
-                  </td>
-                  <td class="whitetable">
-                    <p><a href="http://ww10.aitsafe.com/cf/add.cfm?userid=C5268366&amp;product=TW714TA2 - Special Trailer Package - $535 Deposit&amp;price=7915.00&amp; return=www.trailershowroom.com/specialitems.htm">Add<span> to My Cart</span></a></p>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="5" class="whitetable"><p>The pick up location for this trailer is the Indiana facility.</p>
+                    <p class="fs16"><strong>Original Price: $20,475.00</strong></p><br>
+                    <p class="fs16"><strong>Sale Price: $18,315.00</strong></p><br>
+                    <p class="fs16"><strong>Deposit Required To Hold: $100.00</strong></p><br>
+                    <p class="fs16 red"><strong>You Save: $2,160.00</strong></p><br/>
+                    <p>The pick up location for this trailer is the Indiana facility.</p>
                   </td>
                 </tr>
                 </tbody>
@@ -236,17 +118,17 @@
                 <tbody>
                   <tr>
                     <th colspan="5">
-                <p class="fs18 white">5 X 10 Single Axle Enclosed Trailer </p>
+                <div class="fs18 white">5 X 10 Single Axle Enclosed Trailer </div>
                 </th>
                 </tr>
                 <tr>
                   <td class="whitetable" colspan="5">
-                    <p><img id="Slideshow" src="images/special/100_0670sm.jpg" alt="Special Trailer Price" width="580" height="437"></p>
+                    <p><img id="Slideshow1" src="images/special/100_0670sm.jpg" alt="Special Trailer Price" width="580" height="437"></p>
                     <SCRIPT language=JavaScript type=text/javascript>
                       RunSlideShow("Slideshow2", "images/special/triax01.jpg;images/special/triax02.jpg;images/special/triax03.jpg;images/special/triax04.jpg;images/special/triax05.jpg", 8);
                     </SCRIPT>	
                     <SCRIPT language=JavaScript type=text/javascript>
-                      RunSlideShow("Slideshow", "images/special/100_0670sm.jpg;images/special/100_0671sm.jpg;images/special/100_0673sm.jpg;images/special/100_0676sm.jpg;images/special/100_0678sm.jpg", 8);
+                      RunSlideShow("Slideshow1", "images/special/100_0670sm.jpg;images/special/100_0671sm.jpg;images/special/100_0673sm.jpg;images/special/100_0676sm.jpg;images/special/100_0678sm.jpg", 8);
                     </SCRIPT>			
                     <!-- end slide show image -->
                   </td>
@@ -257,10 +139,10 @@
 
 
                     <div class="row">
-                      <div style="margin:0px auto; max-width:400px">
-                        <div class=" col-xs-6 text-left">
+                      <div style="margin:0px auto; max-width:500px">
+                        <div class="col-xxs-12  col-xs-6 text-left">
 
-                          <ul>
+                          <ul class="list">
                             <li>
                               <span class="red">24 Inch Side Entry Door </span>
                             </li>
@@ -283,8 +165,8 @@
                               <span class="red">Chrome Rims / Radial Tires </span>
                             </li>
                           </ul></div>
-                        <div class="col-xs-6 text-left">
-                          <ul>
+                        <div class="col-xxs-12 col-xs-6 text-left">
+                          <ul class="list">
                             <li>
                               <span class="red">Radial Spare Tire </span>
                             </li>
@@ -312,12 +194,9 @@
                     </div>
                     <div class="mt20"></div>
                     <p class="fs16"><strong>Original Price:  $2,850.00</strong></p><br>
-
-                    <p class="fs16 red"><strong>
-                        Sale Price: $2,645.00</strong></p><br>
-
-                    <p class="fs16"><strong>Deposit Required:  $290.00</strong></p>
-                    <p class="fs16"><strong>Balance Due At Pick Up:  $2,355.00</strong></p>
+                    <p class="fs16"><strong>Sale Price: $2,645.00</strong></p><br>
+                    <p class="fs16"><strong>Deposit Required:  $290.00</strong></p><br/>
+                    <p class="fs16"><strong>Balance Due At Pick Up:  $2,355.00</strong></p><br/><br/>
                   </td>
                 </tr>
                 <tr>
@@ -332,9 +211,9 @@
                     <p><strong>5X10 Special</strong></p>
                   </td>
                   <td class="whitetable">
-                    <p><strong>       VT508SA - Special </strong></p>
+                    <p><strong>VT508SA - Special </strong></p>
                   </td>
-                  <td class="whitetable"><strong>$$2,645</strong></td>
+                  <td class="whitetable"><strong>$2,645</strong></td>
                   <td class="whitetable">
                     <p><strong>$290</strong></p>
                   </td>
@@ -350,15 +229,13 @@
                     <table class="square" cellspacing="1">
                       <tbody>
                         <tr >
-                          <td class="tblue"><a href="5x10sal.htm">5X10 Single
-                              Axle</a></td>
-                          <td class="tblue"><a href="master_enclosed_options.htm">Master
-                              Options Page</a></td>
+                          <td class="tblue"><a href="5x10sal.htm"><strong>5X10 Single Axle</strong></a></td>
+                          <td class="tblue"><a href="master_enclosed_options.htm"><strong>Master Options Page</strong></a></td>
                         </tr>
                       </tbody>
                     </table>
-
-                    <p>The pick up location for this trailer is the Indiana facility.</p>
+                    <br/><br/>
+                    <p>The pick up location for this trailer is the Georgia facility.</p>
                   </td>
                 </tr>
                 </tbody>
