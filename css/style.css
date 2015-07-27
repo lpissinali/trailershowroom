@@ -129,6 +129,7 @@ blockquote {padding: 0 30px;}
 .back-blue{
 	background-color:#000080; padding:10px 5px 10px; height:auto;  text-align:center; width:200px; margin: 25px auto; display:block; font-weight:bold;}
 	.back-blue a{color:#FFF !important;font-weight:bold;}
+  .back-blue.not-full-width {width: auto;}
 
 /*.row-flex-wrap {-webkit-flex-flow: row wrap; flex-flow: row wrap; align-content: flex-start; flex:0;}
 .row-flex > div[class*='col-'] { margin:-.2px; } //hack adjust for wrapping
