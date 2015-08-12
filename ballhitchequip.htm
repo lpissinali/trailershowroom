@@ -19,6 +19,8 @@
     <meta name="msvalidate.01" content="4A79B6AB4AC0D5AE0B3F42E99CD2486E" />
     <meta name="msvalidate.01" content="DC4BB96F860DB9DEBAA6F017E352BA75" />
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/main.js"></script>
   </head>
   <body>
     <div class="container">
@@ -1454,37 +1456,35 @@
                     <td>$25</td>
                     <td><a href="http://ww10.aitsafe.com/cf/add.cfm?userid=C5268366&amp;product=White Trailer Color- $25 Deposit &amp;price=125.00&amp;return=www.trailershowroom.com/ballhitchequip.htm">Add<span> to My Cart</span></a></td>
                   </tr>
+                  <form action="http://ww10.aitsafe.com/cf/add.cfm" method="post">
+                    <input type="hidden" name="userid" value="C5268366">
+                    <input type="hidden" name="return" value="www.trailershowroom.com/ballhitchequip.htm">
+                    <input type="hidden" name="price" value="80">
+                    <input type="hidden" name="product[]" value="Trailer Color - $30 Deposit">
+                    <input type="hidden" name="price" value="60">
                   <tr>
-                    <td colspan="4"><form action="http://ww10.aitsafe.com/cf/add.cfm" method="post">
-                        <input type="hidden" name="userid" value="C5268366">
-                        <input type="hidden" name="return" value="www.trailershowroom.com/ballhitchequip.htm">
-                        <input type="hidden" name="price" value="80">
-                        <div class="row">
-                          <div class="col-xs-8"> All Other Colors Other Than White or Black<br/>
-                            Select Your Color:
-                            <input type="hidden" name="product[]" value="Trailer Color - $30 Deposit">
-                            <select name="product[]">
-                              <option value="CAT Yellow">CAT Yellow</option>
-                              <option value="Machinery Red">Machinery Red</option>
-                              <option value="John Deere Green">John Deere Green</option>
-                              <option value="John Deere Yellow">John Deere Yellow</option>
-                              <option value="Omaha Orange">Omaha Orange</option>
-                              <option value="Machine Tool Grey">Machine Tool Grey</option>
-                              <option value="Safety Yellow">Safety Yellow</option>
-                              <option value="Container Blue">Container Blue</option>
-                              <option value="Gloss Black">Gloss Black</option>
-                            </select>
-                            <input type="hidden" name="price" value="60">
-                          </div>
-                          <div class="col-xs-2">Price $80</div>
-                          <div class="col-xs-2">Deposit $30</div>
-                        </div>
-                        <br/>
-                        <div>
-                          <input type="submit" value="Add to My Cart">
-                        </div>
-                      </form></td>
+                    <td>
+                      All Other Colors Other Than White or Black<br/>
+                      Select Your Color:
+                      <select name="product[]">
+                        <option value="CAT Yellow">CAT Yellow</option>
+                        <option value="Machinery Red">Machinery Red</option>
+                        <option value="John Deere Green">John Deere Green</option>
+                        <option value="John Deere Yellow">John Deere Yellow</option>
+                        <option value="Omaha Orange">Omaha Orange</option>
+                        <option value="Machine Tool Grey">Machine Tool Grey</option>
+                        <option value="Safety Yellow">Safety Yellow</option>
+                        <option value="Container Blue">Container Blue</option>
+                        <option value="Gloss Black">Gloss Black</option>
+                      </select>
+                    </td>
+                    <td>Price $80</td>
+                    <td>Deposit $30</td>
+                    <td>
+                      <input type="submit" value="Add to My Cart">
+                    </td>
                   </tr>
+                  </form>
                 </table>
                 <h2>Exterior</h2>
                 <table border="1" cellspacing="1" cellpadding="3" class="left1st">
