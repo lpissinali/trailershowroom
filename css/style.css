@@ -144,7 +144,7 @@ blockquote {padding: 0 30px;}
 .frame {height: 180px; position: relative;}
 .frame img {position: absolute; top: 0; left: 0;right: 0; bottom: 0; margin: auto;}
 
-.addthis_toolbox {width: 400px; margin: 20px auto;}
+.addthis_toolbox {width: 280px; margin: 20px auto;}
 
 /* tables */
 .price-tables h2, .price-tables h3 {margin: 0 0 20px;}
