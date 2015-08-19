@@ -144,11 +144,11 @@ blockquote {padding: 0 30px;}
 .frame {height: 180px; position: relative;}
 .frame img {position: absolute; top: 0; left: 0;right: 0; bottom: 0; margin: auto;}
 
-.addthis_toolbox {width: 280px; margin: 20px auto;}
+.addthis_toolbox {width: 300px; margin: 20px auto;}
 
 /* tables */
 .price-tables h2, .price-tables h3 {margin: 0 0 20px;}
-.price-tables h2 {margin-top: 100px;}
+.price-tables h2 {margin-top: 50px; font-size: 22px;}
 .price-tables ul {margin-left: 30px; text-align: left;}
 table {text-align: center;width: 100%; font-size: 13px;}
 table a {text-decoration: underline!important;}
@@ -241,6 +241,8 @@ footer p, footer a {color: #fff; font-size: 10px;}
   .hidden-xs {display: block;}
   
   /*.row-flex, .row-flex > div[class*='col-'] { display: -ms-flexbox;display: flex;display: -webkit-box; display: moz-box-flex; display: -webkit-flex; flex-wrap: wrap;  flex:1 1 auto;}*/
+  
+  .special-margin {margin-left: 118px;}
 }
 
 .fs-x-small {font-size: x-small;}
