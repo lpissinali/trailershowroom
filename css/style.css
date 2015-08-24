@@ -127,7 +127,7 @@ div.well-blue p {margin-bottom: 0;}
 blockquote {padding: 0 30px;}
 
 .back-blue{
-	background-color:#000080; padding:10px 5px 10px; height:auto;  text-align:center; width:200px; margin: 25px auto; display:block; font-weight:bold;}
+	background-color:#000080; border: 4px double #CC0000; padding:10px 5px 10px; height:auto;  text-align:center; width:200px; margin: 25px auto; display:block; font-weight:bold;}
 	.back-blue a{color:#FFF !important;font-weight:bold;}
   .back-blue.not-full-width {width: auto;}
 
