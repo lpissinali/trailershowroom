@@ -128,7 +128,7 @@ div.well-blue p {margin-bottom: 0;}
 blockquote {padding: 0 30px;}
 
 .back-blue{
-	background-color:#000080; border: 4px double #000; padding:10px 5px 10px; height:auto;  text-align:center; width:200px; margin: 25px auto; display:block; font-weight:bold;}
+	background-color:#000080; border: 4px double #CC0000; padding:10px 5px 10px; height:auto;  text-align:center; width:200px; margin: 25px auto; display:block; font-weight:bold;}
 	.back-blue a{color:#FFF !important;font-weight:bold;}
   .back-blue.not-full-width {width: auto;}
 
@@ -170,6 +170,19 @@ table.left1st td:first-child {text-align: left;}
 .square a , .square-3 a ,.square-4 a { color:#FFF !important; text-decoration:none !important;padding: 10px 5px; display: block; border: solid 1px #000;
   margin: 3px;}
 .whitetable{background-color:#FFF !important;}	
+
+.addthis_toolbox {
+  width: 100%;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.addthis_toolbox a {
+  display: inline-block;
+  float: none;
+  padding: 0;
+  vertical-align: top;
+}
 	
 
 
