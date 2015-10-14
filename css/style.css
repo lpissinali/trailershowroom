@@ -25,6 +25,7 @@ h2, h2 a { font-size: 18px; margin: 40px 0 20px;}
 h3, h3 a { font-size: 14px; margin: 40px 0 20px;}
 ul {padding: 0;margin: 0;}
 .col-sm-8 > ul {margin-left: 30px; text-align: left;}
+th p {color:#fff;}
 
 img {max-width: 100%;height: auto;}
 .img-border {border: solid 3px #0000EE;}
