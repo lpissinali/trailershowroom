@@ -169,6 +169,8 @@ table.left2nd td:nth-child(2) {text-align: left;}
 .square-3 td {width:33%; border: 1px solid #808080; padding:0}
 .square-4 { margin-left:auto; margin-right:auto}
 .square-4 td {width:24%; border: 1px solid #808080; padding:0}
+.square-6 {margin-left: auto; margin-right: auto;}
+.square-6 td {width:15%; border: 1px solid #808080; padding:0;}
 .square .tblue, .square-3 .tblue,.square-4 .tblue{background-color: #000080;}
 
 .square .tred, .square-3 .tred, .square-4 .tred {background-color: #800000;}
@@ -176,6 +178,10 @@ table.left2nd td:nth-child(2) {text-align: left;}
 .square a , .square-3 a ,.square-4 a { color:#FFF !important; text-decoration:none !important;padding: 10px 5px; display: block; border: solid 1px #000;
   margin: 3px;}
 .whitetable{background-color:#FFF !important;}	
+.square-6 td {vertical-align: middle;height: 60px;border: 1px solid #000;}
+.square-6 .tblue {background-color: #000080;}
+.square-6 .tred {background-color: #800000;}
+.square-6 a, .square-6 span {padding: 0 1px;color: #fff !important; text-decoration: none !important; display: block;}
 
 .addthis_toolbox {
   width: 100%;
@@ -297,4 +303,89 @@ footer p, footer a {color: #fff; font-size: 10px;}
 
 table p {
   margin: 0;
+}
+
+table.table-card {
+  margin: 24px auto;
+  text-align: center;
+  width: auto;
+  font-size: inherit;
+}
+
+table.table-card td {
+  border-right: inherit;
+  padding-right: 0;
+  padding-left: 0;
+  padding: 0;
+  max-width: auto;
+}
+
+table.table-card tr:nth-child(even) td {
+  background: transparent;
+}
+
+.slide-block {
+  margin-top: 12px;
+  padding: 0 24px;
+}
+
+.slide-block div:first-child {
+  height: 102px;
+}
+
+.slide-block-big div:first-child {
+  height: 134px;
+}
+
+.slide-block div:nth-child(2) {
+  height: 48px;
+}
+
+.slide-block-big div:nth-child(2) {
+  height: 86px;
+}
+
+.slide-block a {
+  text-decoration: none;
+}
+
+.blue-text {
+  padding: 12px;
+  background-color: #000080;
+  color: #fff;
+  text-align: center;
+}
+
+.blue-text a {
+  text-decoration: none;
+}
+
+.blue-text p {
+  margin: 0;
+}
+
+.disp-table {
+  display: table;
+  margin: 0 auto;
+}
+
+
+.table-red {
+  padding: 0;
+}
+
+.table-red td,
+.table-red-big td,
+.table-red-big th {
+  padding: 12px 0;
+}
+
+.table-red tr:nth-child(even) td,
+.table-red-big tr:nth-child(even) td {
+  background-color: #fff;
+}
+
+.table-red td:first-child,
+.table-red tr:nth-child(even) td:first-child {
+  background-color: #CC0000;
 }
