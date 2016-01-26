@@ -171,11 +171,11 @@ table.left2nd td:nth-child(2) {text-align: left;}
 .square-4 td {width:24%; border: 1px solid #808080; padding:0}
 .square-6 {margin-left: auto; margin-right: auto;}
 .square-6 td {width:15%; border: 1px solid #808080; padding:0;}
-.square .tblue, .square-3 .tblue,.square-4 .tblue{background-color: #000080;}
+.square .tblue, .square-3 .tblue,.square-4 .tblue{background-color: #000080; border: 1px solid rgb(204, 0, 0);}
 
-.square .tred, .square-3 .tred, .square-4 .tred {background-color: #800000;}
+.square .tred, .square-3 .tred, .square-4 .tred {background-color: #800000; border: 1px solid rgb(204, 0, 0);}
 .square td {width:50%; border: 1px solid #808080; padding:0;}
-.square a , .square-3 a ,.square-4 a { color:#FFF !important; text-decoration:none !important;padding: 10px 5px; display: block; border: solid 1px #000;
+.square a , .square-3 a ,.square-4 a { color:#FFF !important; text-decoration:none !important;padding: 10px 5px; display: block; border: solid 1px rgb(204, 0, 0);
   margin: 3px;}
 .whitetable{background-color:#FFF !important;}	
 .square-6 td {vertical-align: middle;height: 60px;border: 1px solid #000;}
